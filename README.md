@@ -7,13 +7,13 @@
 
 docker compose file to deploy application localy
 
-# naming
+# name convention
 
 - ntzoe-[repo-name]--[image-name] -> container name
 - ntzoe-[repo-name]--[image-name]-storage -> vlume name
 
-# location
+# locations
 
-- env files $NTZOE_HOME_DIR/record/tomcat/[env-files]
+- **env-files**: $NTZOE_HOME_DIR/record/tomcat/[env-files]
 
-- executable files: $NTZOE_HOME_DIR/er/{ntzoe-tomcat-space-up, ntzoe-tomcat-space-up-deamon, ntzoe-tomcat-space-down}
+- **executable files**: $NTZOE_HOME_DIR/er/{ntzoe-tomcat-space-up, ntzoe-tomcat-space-up-deamon, ntzoe-tomcat-space-down}
