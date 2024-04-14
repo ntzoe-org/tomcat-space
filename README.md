@@ -5,7 +5,7 @@
 
 # tomcat-space
 
-docker compose file to deploy application localy
+docker compose file to deploy java web (war files) localy
 
 # name convention
 
