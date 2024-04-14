@@ -1,9 +1,9 @@
 
 services:
   ntzoe-tomcat-space--tomcat:
-    image: docker.io/tomcat:9.0-jdk17
+    image: docker.io/tomcat
     ports:
       - ${TOMCAT_PORT}:8080
+    # volumes:
+    #   - ${WAR_DIR}:/usr/local/tomcat/webapps/
 
-    volumes:
-      - ${WAR_DIR}/:/usr/local/tomcat/webapps/
