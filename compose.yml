@@ -4,6 +4,6 @@ services:
     image: docker.io/tomcat
     ports:
       - ${TOMCAT_PORT}:8080
-    # volumes:
-    #   - ${WAR_DIR}:/usr/local/tomcat/webapps/
+    volumes:
+      - ${WAR_DIR}:/usr/local/tomcat/webapps:z
 
